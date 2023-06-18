@@ -1,11 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+nav{
+    padding: 1rem 2rem;
+    display: flex;
+    background-color: teal;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
 }
 
-header {
-    width: 100vw;
-    height: 100vh;
-    background-image: url('./img/header-cat-png.webp');
+nav span{
+    font-size: 24px;
+}
+
+.Container{
+    width: 700px;
+    margin: 0 auto;
+} 
+
+.Lady.jpg.png {
+    background: url(Lady.jpg.jpg);
+    background-size: cover;
+    height: 400px;
+
+}
+
+p {
+    font-size: 24px;
 }
